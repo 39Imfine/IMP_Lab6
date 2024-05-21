@@ -8,4 +8,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VRSetUp.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2fbeeebb3ecb34f4ea98cfb6a6267515,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 060a6980544a4884f9f15c87098c628f,
+      type: 2}
