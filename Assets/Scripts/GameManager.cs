@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -15,8 +16,7 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    public int score = 0;
-    public int numOfEnemies;
+    private int score = 0;
 
     void Awake()
     {
@@ -33,15 +33,6 @@ public class GameManager : MonoBehaviour
     {
         score++;
 
-        Debug.Log(score);
-    }
-
-    public void UpdateNumOfEnemies()
-    {
-        numOfEnemies--;
-        if(numOfEnemies == 0)
-            Debug.Log("Level Cleared");
-        else
-            Debug.Log(numOfEnemies);
+        Debug.Log("Score : " + score);
     }
 }

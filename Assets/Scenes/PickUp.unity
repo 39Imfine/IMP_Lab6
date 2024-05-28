@@ -2045,7 +2045,8 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 914719734005754760, guid: c836783e3928a624e9ff9c70d4f21606,
+    type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -3663,7 +3664,8 @@ MonoBehaviour:
   m_UpdateTrackingType: 0
   m_EnableInputTracking: 1
   m_EnableInputActions: 1
-  m_ModelPrefab: {fileID: 0}
+  m_ModelPrefab: {fileID: 108325808751205561, guid: cfa8dc06d611ba340b06bbefba58ee46,
+    type: 3}
   m_ModelParent: {fileID: 0}
   m_Model: {fileID: 0}
   m_AnimateModel: 0
@@ -5321,10 +5323,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1700035279}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e14d902619bf58d4aad302a2ffac9309, type: 3}
+  m_Script: {fileID: 11500000, guid: 50599c9e4a59ee14b939ed4251489378, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 0
+  enemies: {fileID: 0}
 --- !u!4 &1700035281
 Transform:
   m_ObjectHideFlags: 0

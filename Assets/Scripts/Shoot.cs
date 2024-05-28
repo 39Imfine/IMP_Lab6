@@ -6,7 +6,7 @@ using UnityEngine;
 public class Shoot : MonoBehaviour
 {
     [SerializeField]
-    private float forcePower = 10.0f;
+    private float forcePower = 20.0f;
     [SerializeField]
     private GameObject bullet;
     [SerializeField]
@@ -34,7 +34,7 @@ public class Shoot : MonoBehaviour
             rigidbody.AddForce(gameObject.transform.forward * forcePower, ForceMode.Impulse);
             audioSource.Play();
 
-            Destroy(go, 2);
+            Destroy(go, 4);
 
             shoot = false;
         }
